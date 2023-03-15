@@ -1,5 +1,5 @@
 :root {
-    background-image: url("Images/multicolor.png") 
+    background-image: url("Images/multicolor.png")
 }
 
 body {
@@ -9,18 +9,37 @@ body {
     background-color: rgb(255, 98, 98);
     padding: .5em, .5em, 5em, .5em;
     border-radius: 10px;
-}  
-.colorguide { 
-    height: 20%; 
-    width: 20%; 
-    border-radius: 100%; 
-    border: 1px solid black; 
 } 
-#title { 
-    text-decoration: none; 
-    color: rgb(255, 255, 255);  
-   font-size: 150%;
+
+.Colorlist { 
+    width: 60%;
 }
+
+/* Images*/
+.colorguide {
+    height: 100%;
+    width: 30%;
+    border-radius: 100%;
+    border: 1px solid black;
+}
+
+.guilds {
+    height: 100%;
+    width: 30%;
+    border: 1px solid black;
+} 
+.Deckarchetypes { 
+    height: 100%; 
+    width: 30%; 
+    border: 1px soild white;
+}
+
+#title {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 150%;
+}
+
 /* Navigation Menu*/
 
 #nav_menu ul {
@@ -55,7 +74,7 @@ body {
 }
 
 #nav_menu ul ul {
-    color: white; 
+    color: white;
     display: none;
     position: absolute;
     text-align: center;
@@ -75,3 +94,22 @@ body {
     clear: both;
 }
 
+#Red {
+    list-style-image: url("Images/Red15.png");
+}
+
+#Blue {
+    list-style-image: url("Images/Blue15.png");
+}
+
+#Green {
+    list-style-image: url("Images/Green15.png");
+}
+
+#White {
+    list-style-image: url("Images/White15.png");
+}
+
+#Black {
+    list-style-image: url("Images/Black15.png");
+}
